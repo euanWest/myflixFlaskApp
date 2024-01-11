@@ -42,7 +42,7 @@ def video_page(video):
 
 @app.route('/')
 def cat_page():
-    url = "http://34.173.227.154/myflix/videos"
+    url = "http://34.42.188.238/myflix/videos"
     headers = {}
     payload = json.dumps({ })
 
@@ -75,7 +75,7 @@ def cat_page():
               html=html+'<h3>'+name+'</h3>'
               ServerIP=request.host.split(':')[0]
               html=html+'<a href="http://'+ServerIP+'/Video/'+uuid+'">'
-              html=html+'<img src="http://35.228.145.155/pics/'+thumb+'">'
+              html=html+'<img src="http://35.192.182.144/pics/'+thumb+'">'
               html=html+"</a>"        
               print("=======================")
 
