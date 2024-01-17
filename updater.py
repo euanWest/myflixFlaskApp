@@ -28,5 +28,5 @@ def updateCheck():
 def hello_world():
     return "<p>Hello, World!</p>"
  
-if __name__ == '__main__':
+if __name__ == '__app__':
     app.run(debug=True, port=8001)
