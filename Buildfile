@@ -11,4 +11,4 @@ docker rm some-mysql
 docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=dacjd156n. -d mysql:8.0
 docker run -p 80:80 -d --name flaskapp --link some-mysql:some-mysql acobley/flaskapp
 
-python3 updater.py -m flask
+python3 myFlixupdater.py -m flask
